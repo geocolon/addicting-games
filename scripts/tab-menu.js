@@ -1,26 +1,26 @@
-var slideIndex = 1;
-showSlides(slideIndex);
+$(document).ready(function(){
+  $(".divs div").each(function(e) {
+      if (e != 0)
+          $(this).hide();
+  });
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
+  $("#next").click(function(){
+      if ($(".divs div:visible").next().length != 0)
+          $(".divs div:visible").next().show().prev().hide();
+      else {
+          $(".divs div:visible").hide();
+          $(".divs div:first").show();
+      }
+      return false;
+  });
 
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-}
+  $("#prev").click(function(){
+      if ($(".divs div:visible").prev().length != 0)
+          $(".divs div:visible").prev().show().next().hide();
+      else {
+          $(".divs div:visible").hide();
+          $(".divs div:last").show();
+      }
+      return false;
+  });
+});
