@@ -19,9 +19,13 @@ height: 100vh;
 }
 /* Class list below */
 .image-avatar {
+  display: block;
   width: 190px;
   border: 10px solid #fff;
   border-radius: 50%;
+}
+#ag-log {
+ width: 100%;
 }
 /* Grid measurements:
  *
