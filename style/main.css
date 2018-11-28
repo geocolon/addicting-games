@@ -27,7 +27,7 @@ h1 {
 .image-avatar {
   display: block;
   width: 190px;
-  border: 10px solid #fff;
+  border: 10px solid #000080;
   border-radius: 50%;
 }
 #ag-log {
