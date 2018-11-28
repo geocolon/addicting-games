@@ -1,0 +1,33 @@
+
+/* Found src at URL https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_full_page_tabs*/
+
+/* Style tab links */
+.tablink {
+    background-color: black;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 50%;
+    max-height: 50vh;
+}
+
+.tablink:hover {
+    background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+}
+
+#Home {background-color: red;}
+#News {background-color: white;}
+#Contact {background-color: blue;}
+#About {background-color: orange;}
