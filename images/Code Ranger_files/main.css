@@ -1,11 +1,7 @@
 @import "node_modules/@glidejs/glide/src/assets/sass/glide.core";
 
-html {
-  width: 100%;
-}
-body {
-  min-width: 100%;
 
+body {
   font-family: Arial, Helvetica, sans-serif;
   color: #fff;
   margin: 0%;
