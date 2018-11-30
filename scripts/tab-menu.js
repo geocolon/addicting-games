@@ -1,13 +1,8 @@
 'use strict';
 $(document).ready(function(){
-  $('.divs .slide-menu').each(function(e) {
-    if (e != 0)
-      $(this).hide();
-  });
-
   $('#next').click(function(){
-    if ($('.divs .slide-menu:visible').next().length !== 0)
-      $('.divs .slide-menu:visible').next().show().prev().hide();
+    if ($('.divs .slide-menu:visible').next('.slide-menu').length !== 0)
+      $('.divs .slide-menu:visible').next('.slide-menu').show().prev().hide();
     else {
       $('.divs .slide-menu:visible').hide();
       $('.divs .slide-menu:first').show();
@@ -16,8 +11,8 @@ $(document).ready(function(){
   });
 
   $('#prev').click(function(){
-    if ($('.divs .slide-menu:visible').prev().length !== 0)
-      $('.divs .slide-menu:visible').prev().show().next().hide();
+    if ($('.divs .slide-menu:visible').prev('.slide-menu').length !== 0)
+      $('.divs .slide-menu:visible').prev('.slide-menu').show().next().hide();
     else {
       $('.divs .slide-menu:visible').hide();
       $('.divs .slide-menu:last').show();
