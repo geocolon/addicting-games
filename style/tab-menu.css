@@ -4,7 +4,7 @@
   max-width: 1000px;
   position: relative;
   margin: 1rem auto;
-  height: 100%;
+  
   background-color: rgba(100, 100, 100, 0.8);
   border: 1px solid white;
   padding: 1rem;
@@ -81,6 +81,6 @@
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
-  .slideshow-container {min-height: 50vh;}
+  .slideshow-container {height: 50vh;}
   
 }
