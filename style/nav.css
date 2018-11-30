@@ -14,7 +14,7 @@ header {
   background-color:black;
 }
 #main-menu-toggle {
-  float: none;
+  float: flex;
 }
 
 /* Button styling */

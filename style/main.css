@@ -40,9 +40,6 @@ h1 {
 
 }
 
-#myChart {
-    background-color:#fff;
-}
 /* Class list below */
 .image-avatar {
   display: block;
@@ -62,7 +59,7 @@ h1 {
  float: left;
  display: block;
 }
-.cls2 {
+#cls2 {
   display: none;
 }
 
