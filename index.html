@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Code Ranger</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+     
     <link rel="stylesheet" type="text/css" href="style/tab-menu.css" />
     <link rel="stylesheet" type="text/css" href="style/main.css" />
     <link rel="stylesheet" type="text/css" href="style/nav.css" />
@@ -13,6 +13,8 @@
 
     <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
 <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
 
 
 
@@ -20,31 +22,53 @@
 
 </head>
 <body>
-
-<nav class="topnav" id="myTopnav">
-        <a href="/"><img id="ag-log" src="http://www.addictinggames.com/a/img/agLogo_n.png"/></a>
+<header>
        
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
-      </div>
-    
-        <!-- <div class="container">
-        <row>
-                <img id="ag-log" src="http://www.addictinggames.com/a/img/agLogo_n.png"/>
-        </row>
-        <row> -->
-                <!-- <img id="ag-log" src="http://www.addictinggames.com/a/img/agLogo_n.png"/> -->
-                <!-- <div class="col-3">
-                <img id="george-gaming" class="image-avatar" src="images/george-gaming.png"/>
-            </div>
-                </row>
-        </div> -->
+        <a href="#main-menu"
+        role="button"
+        id="main-menu-toggle"
+        class="menu-toggle"
+        aria-expanded="false"
+        aria-controls="main-menu"
+        aria-label="Open main menu">
+   
+       <span class="sr-only">Open main menu</span>
+       
+       <span class="fa fa-bars" aria-hidden="true">
+           <a href="/"><img id="ag-log" src="http://www.addictinggames.com/a/img/agLogo_n.png"/></a>
+       </span>
+     </a>
+  
+  <nav id="main-menu" role="navigation" class="main-menu" aria-expanded="false" aria-label="Main menu">
+
+    <a href="#main-menu-toggle"
+       role="button"
+       id="main-menu-close"
+       class="menu-close"
+       aria-expanded="false"
+       aria-controls="main-menu"
+       aria-label="Close main menu">
+
+      <span class="sr-only">Close main menu</span>
+      <span class="fa fa-close" aria-hidden="true"></span>
+    </a>
+    <a href="/"><img id="ag-log-desktop" src="http://www.addictinggames.com/a/img/agLogo_n.png"/></a>
+
+    <ul>
+      <li><a href="#">Products</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+  <a href="#main-menu-toggle"
+     class="backdrop"
+     tabindex="-1"
+     aria-hidden="true" hidden></a>
+        
 
 
     
-    </nav> 
-
+</header>
         <div class="slideshow-container">
 
                 
