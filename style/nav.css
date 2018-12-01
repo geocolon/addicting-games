@@ -11,7 +11,9 @@
   border: 0;
 }
 header {
+  flex-direction: row-reverse;
   background-color:black;
+  align-items:center;
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
@@ -145,6 +147,10 @@ header {
  Horizontal menu
 */
 @media (min-width: 768px) {
+  header {
+    flex-direction: row;
+    align-items:center;
+  }
   .menu-toggle,
   .main-menu .menu-close {
     display: none;
@@ -172,7 +178,7 @@ header {
   }
   
   .main-menu a {
-    color: #06c;
+    color: #fff;
     border: 0 !important; /* Remove borders from off-canvas styling */
   }
   
