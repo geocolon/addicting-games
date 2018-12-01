@@ -1,5 +1,6 @@
 'use strict';
 $(document).ready(function(){
+
   $('#next').click(function(){
     if ($('.divs .slide-menu:visible').next('.slide-menu').length !== 0)
       $('.divs .slide-menu:visible').next('.slide-menu').show().prev().hide();

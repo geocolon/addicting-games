@@ -117,7 +117,7 @@ footer {
   
   /* Non-mobile, grid */
   @media only screen and (min-width: 640px){
-    .slideshow-container {width: 100%; min-height: 60vh;}
+    .slideshow-container {width: 100%; max-height: 60vh;}
 
     .container {
       width: 960px;

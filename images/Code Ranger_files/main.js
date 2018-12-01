@@ -18,4 +18,11 @@
 
 //   // Configuration options go here
 //   options: {}
-// });
+// }); #_samewidth_images
+$('#_samewidth_images').owlCarousel({
+    margin:10,
+    autoWidth:false,
+    nav:true,
+    items:4,
+    navText : ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>']
+})
