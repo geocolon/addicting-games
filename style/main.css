@@ -66,7 +66,34 @@ h1 {
   max-width: 100%;
 }
 
+.slide-menu {
+  padding-bottom:3rem;
+}
+.bar-chart {
+  display: block;
+}
+.owl-carousel {
+  padding-bottom:100px; 
+}
+.owl-prev > span {
+  margin-right: 4rem;
+  padding: 1rem;
+  background-color:red;
+}
+.owl-next > span {
+  margin-left: 4rem;
+  padding: 1rem;
+  background-color:red;
+}
 
+.owl-dots {
+  display: none;
+}
+
+/* .owl-nav {
+  background-color:white;
+  position: relative;
+} */
 /* Grid measurements:
  *
  *   960px wide including 12 gutters (half gutters on both edges)

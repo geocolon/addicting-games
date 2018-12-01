@@ -73,12 +73,16 @@
     <main>
         <div class="slideshow-container">
         <div class="divs">
-            <div class="slide-menu" id="cls1"><img id="george-gaming" class="image-avatar" src="images/george-gaming.png"/>
-                
+            <div class="slide-menu" id="cls1">
+                <div class="col-6">
+                <img id="george-gaming" class="image-avatar" src="images/george-gaming.png"/>
+                </div>
+                <div class="text-box col-6"></div>
                 <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </p>
             </div>
             <div class="slide-menu" id="cls2">
+                <div id="bar-chart" class="col-6">
                 <h1>jQuery & CSS3 Skills Bar</h1>
                     <div class="skillbar clearfix " data-percent="20%">
                         <div class="skillbar-title" style="background: #d35400;"><span>HTML5</span></div>
@@ -120,12 +124,16 @@
                         <div class="skillbar-title" style="background: #124e8c;"><span>Photoshop</span></div>
                         <div class="skillbar-bar" style="background: #4288d0;"></div>
                         <div class="skill-bar-percent">70%</div>
-                    </div> <!-- End Skill Bar -->     
+                    </div> <!-- End Skill Bar -->  
+            </div>
+            <div class="text-box col-6">
+                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
             </div>    
-                    <a id="next">next</a>
-                    <a id="prev">prev</a>
+                   
         </div>
-           
+        <a id="next">next</a>
+        <a id="prev">prev</a>
     </main>
 </div>                 
 
@@ -133,15 +141,25 @@
 <!-- <p><strong>SOURCE :</strong> http://w3lessons.info/2013/06/04/skill-bar-with-jquery-css3/</p> -->
 <footer>
         <div class="owl-carousel owl-theme">
-                <div class="item"><img class="title-games" src="images/call-of-war.png"/></div>
-                <div class="item"><h4>2</h4></div>
-                <div class="item"><h4>3</h4></div>
-                <div class="item"><h4>4</h4></div>
-                <div class="item"><h4>5</h4></div>
-                <div class="item"><h4>7</h4></div>
-                <div class="item"><h4>8</h4></div>
-                <div class="item"><h4>9</h4></div>
-                <div class="item"><h4>10</h4></div>
+                <a class="item" href="http://www.addictinggames.com/strategy-games/call-of-war-mmo-game.jsp"><img class="title-games" src="images/call-of-war.png"/></a>
+
+                <a class="item" href="http://www.addictinggames.com/puzzle-games/cube-escape-seasons-game.jsp"><img class="title-games" src="http://cdn.addictinggames.com/newGames/puzzle-games/cube-escape-seasons/cube-escape-seasons_sp.png?c=31"/></a>
+
+
+                <a class="item" href="http://www.addictinggames.com/shooting-games/sift-heads-remasterized-game.jsp"><img class="title-games" src="http://cdn.addictinggames.com/newGames/shooting-games/sift-heads-remasterized/sift-heads-remasterized_sp.png?c=31"/></a>
+
+                <a class="item" href="http://www.addictinggames.com/zombie-games/zombieshooter2-game.jsp"><img class="title-games" src="http://cdn.addictinggames.com/newGames/zombie-games/zombieshooter2/zombieshooter2_sp.png?c=31"/></a>
+
+                <a class="item" href="http://www.addictinggames.com/shooting-games/sift-heads-remasterized-game.jsp"><img class="title-games" src="http://cdn.addictinggames.com/newGames/puzzle-games/theimpossiblequiz/theimpossiblequiz_sp.png?c=31"/></a>
+
+                <a class="item" href="http://www.addictinggames.com/shooting-games/championarcher.jsp"><img class="title-games" src="http://cdn.addictinggames.com/newGames/shooting-games/championarcher/championarcher_sp.png?c=31"/></a>
+
+
+                <a class="item" href="http://www.addictinggames.com/strategy-games/forge-of-empires-mmo-game.jsp"><img class="title-games" src="http://cdn.addictinggames.com/newGames/strategy-games/forge-of-empires-mmo/forge-of-empires-mmo_sp.png?c=31"/></a>
+                
+                <a class="item" href="http://www.addictinggames.com/strategy-games/big-farm-mmo-game.jsp"><img class="title-games" src="http://cdn.addictinggames.com/newGames/strategy-games/big-farm-mmo/big-farm-mmo_sp.png?c=31"/></a>
+                
+                
             </div>
 <center>George Colón for Addicting Games</center>
               
@@ -154,7 +172,6 @@
   crossorigin="anonymous"></script>
     
   <script type="text/javascript" src="owlcarousel/owl.carousel.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
 
           <script type="text/javascript" src="scripts/main.js"></script>
           <script type="text/javascript" src="scripts/tab-menu.js"></script>

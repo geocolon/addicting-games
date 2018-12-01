@@ -2,12 +2,13 @@
 
 /* Slideshow container */
 .slideshow-container {
+	display: flex;
   max-width: 1000px;
   position: relative;
   margin: 1rem auto;
   background-color: rgba(100, 100, 100, 0.8);
   border: 1px solid white;
-  padding: 1rem;
+	padding: 1rem 1rem 5rem 1rem;
 }
 
 /* Next & previous buttons */
