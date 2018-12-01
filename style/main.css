@@ -9,16 +9,15 @@ body {
   margin: 0%;
 background-color: black;
 padding-bottom: 60px;
-/* height: 100vh; */
- background-repeat: no-repeat; /* Do not repeat the image */
- background-size: cover; /* Resize the background image to cover the entire container */
-/* background-size: cover; */
-/* background-color: black; */
+  /* Do not repeat the image */
 }
-
+#background-image {
+  background-image: url("../images/background-desert.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 body::after {
   content: "";
-  background-image: url("../images/background-desert.png");
   opacity: 0.5;
   top: 0;
   left: 0;

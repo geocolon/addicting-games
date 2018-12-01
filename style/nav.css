@@ -12,9 +12,9 @@
 }
 header {
   background-color:black;
-}
-#main-menu-toggle {
-  float: flex;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
 }
 
 /* Button styling */
