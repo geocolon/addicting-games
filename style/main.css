@@ -52,7 +52,12 @@ h1 {
 #cls2 {
   display: none;
 }
-
+#cls3 {
+  display:none;
+}
+#prev {
+  display:none;
+}
 .text-background {
   padding: 0.5rem;
   /* background-color: black; */
