@@ -60,7 +60,6 @@ h1 {
 }
 #hero > img {
   filter: drop-shadow(0 0 3rem rgb(14, 6, 122));
-  margin-left: -1%;
   max-width: 100%;
   height: auto;
   padding: 1rem 0px;
