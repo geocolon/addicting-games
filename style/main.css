@@ -49,14 +49,13 @@ h1 {
  float: left;
  display: block;
 }
-#cls2 {
-  display: none;
-}
-#cls3 {
+ 
+#cls2, #cls3, #prev {
   display:none;
 }
-#prev {
-  display:none;
+ 
+#hero > img {
+  max-width: 100%;
 }
 .text-background {
   padding: 0.5rem;
